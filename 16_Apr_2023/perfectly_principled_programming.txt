@@ -1,0 +1,53 @@
+The seven deadly sins in programming:
+	1. Not using programming standards:
+		The simple rules like: whitespacing (a == b), file structores (arranging packages in java), etc; as 
+		common programming standards that make code more readable to the audience. It allows everyone working on the 
+		same code to rely on shared expectations. If the standards are not kept, it's similar to changing fonts all
+		the time; you can easily read it yourself, but it throws-off others working on the same code.
+		If you are not given any coding standard to follow, you can choose one from the internet to follow.
+	2. Not using Programming Design Principles:
+		Principle in programming are similar to a general guide to become a better programmer, like raw philosophies of 
+		code. The most commonly used and most popular Programming Design principles are collectively known as the SOLID 
+		principles.
+			2.1 The 'S' in SOLID stands for 'Single Responsibility': 
+				which forces to break down our code to modules of a single responsibility each.
+			2.2 The 'O' in SOLID stands for 'Open/Closed':
+				which suggests us to design our modules (made from section 2.1) to be able to add new features to it 
+				without making any changes to it by extending a module to add to it.
+			2.3 The 'L' in SOLID stands for 'Liskov Substitution':
+				which suggests us that, modules are to be extends iff you are absolutely sure that it is the same type
+				at heart; else, extend something else that fits it's type, or it can become a new type itself.
+			2.4 The 'I' in SOLID  stands for 'Inteface Segragation':
+				It says that our modules shouldn't need to know about that functionalities that they do not use, so we 
+				split our modules into smaller abstractions, like interfaces, which we can then compose to form an exact 
+				set of functionalities that the module requires. This becomes especially useful when testing, since we can
+				mock only the functionality that each module needs.
+			2.5 The 'D' in SOLID stands for 'Dependency Inversion':
+				It suggests that: 'Instead of talking to other parts of your code directly, they should always 
+				communicate abstractly, (via the interfaces that are defined in the Interface Segragation step)'
+
+	3. Not using Programming Design Patters (not to confused with principles):
+		Patterns with real solutions to our code problems, but aren't fixed implementations. We use them to architect our
+		software systems. These patterns are categorized:
+			3.1 Creational Patterns:
+				For taking control on the new object instances. Such as the 'Factory Method Pattern' that turns a bunch of requirements into different modules that follow the same interface but aren't necessarily the same type.
+			3.2 Structural Patterns:
+				Which are concerned with how we organize and manipulate our objects. Such as the 'Adapter Pattern' to 
+				wrap a module to adapt its interface to one that another module needs.
+			3.3 Behavioral Patterns:
+				Focusses on how the code functions and how it handles communication with other parts of the code. Such as 
+				using the 'Observer Pattern' to publish and subscribe to a stream of messages in an event based sort of 
+				architecture.
+
+	4. Not using adequate names:
+		Putting adequate names helps other read and understand code without talking to you.
+
+	5. Not writing tests:
+		Try using the solid principles in your code. Testing will become a lot easier.
+
+	6. Not estimating the time correctly:
+		Always gives 2-3 times the original estimate in your mind whenver somebody asks the time it will take to complete 
+		a certain task. Sure, you can do it in 3 days, but nobody knows what problems you will encounter.
+
+	7. Having too much speed:
+		Whenever you write code, think through all the things related to it.
